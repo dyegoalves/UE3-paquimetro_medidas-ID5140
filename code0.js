@@ -90,7 +90,7 @@ gdjs.copyArray(runtimeScene.getObjects("textEstagio1"), gdjs.Est1Code.GDtextEsta
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("btAvancarG"), gdjs.Est1Code.GDbtAvancarGObjects1);
+/* Reuse gdjs.Est1Code.GDbtAvancarGObjects1 */
 
 gdjs.Est1Code.condition0IsTrue_0.val = false;
 {
@@ -206,21 +206,17 @@ gdjs.Est1Code.condition0IsTrue_0.val = false;
 {
 gdjs.Est1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Est1Code.mapOfGDgdjs_46Est1Code_46GDc2Objects2Objects, gdjs.Est1Code.mapOfGDgdjs_46Est1Code_46GDc2cObjects2Objects, false, runtimeScene, false);
 }if (gdjs.Est1Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("btAvancarG"), gdjs.Est1Code.GDbtAvancarGObjects2);
 /* Reuse gdjs.Est1Code.GDc2Objects2 */
 gdjs.copyArray(runtimeScene.getObjects("s1"), gdjs.Est1Code.GDs1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("textEstagio1"), gdjs.Est1Code.GDtextEstagio1Objects2);
 {for(var i = 0, len = gdjs.Est1Code.GDc2Objects2.length ;i < len;++i) {
     gdjs.Est1Code.GDc2Objects2[i].clearForces();
 }
-}{for(var i = 0, len = gdjs.Est1Code.GDtextEstagio1Objects2.length ;i < len;++i) {
-    gdjs.Est1Code.GDtextEstagio1Objects2[i].hide(false);
-}
 }{for(var i = 0, len = gdjs.Est1Code.GDs1Objects2.length ;i < len;++i) {
     gdjs.Est1Code.GDs1Objects2[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.Est1Code.GDbtAvancarGObjects2.length ;i < len;++i) {
-    gdjs.Est1Code.GDbtAvancarGObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.Est1Code.GDtextEstagio1Objects2.length ;i < len;++i) {
+    gdjs.Est1Code.GDtextEstagio1Objects2[i].hide(false);
 }
 }}
 
@@ -241,7 +237,11 @@ for(var i = 0, k = 0, l = gdjs.Est1Code.GDs1Objects1.length;i<l;++i) {
     }
 }
 gdjs.Est1Code.GDs1Objects1.length = k;}if (gdjs.Est1Code.condition0IsTrue_0.val) {
-
+gdjs.copyArray(runtimeScene.getObjects("btAvancarG"), gdjs.Est1Code.GDbtAvancarGObjects1);
+{for(var i = 0, len = gdjs.Est1Code.GDbtAvancarGObjects1.length ;i < len;++i) {
+    gdjs.Est1Code.GDbtAvancarGObjects1[i].hide(false);
+}
+}
 { //Subevents
 gdjs.Est1Code.eventsList2(runtimeScene);} //End of subevents
 }
