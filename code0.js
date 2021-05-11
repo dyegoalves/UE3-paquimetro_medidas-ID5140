@@ -372,6 +372,9 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdiretaObjects2.length ;i < len;++i) {
     gdjs.paquimetroCode.GDdiretaObjects2[i].setAnimationFrame(1);
 }
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnanioObjects2[i].activateBehavior("Draggable", false);
+}
 }}
 
 }
@@ -397,6 +400,9 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDesquerdaObjects1.length ;i < len;++i) {
     gdjs.paquimetroCode.GDesquerdaObjects1[i].setAnimationFrame(1);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnanioObjects1[i].activateBehavior("Draggable", false);
 }
 }}
 
