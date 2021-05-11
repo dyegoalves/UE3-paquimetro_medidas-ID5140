@@ -90,16 +90,8 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDblockNanioPonto0Objects2Objects, runtimeScene, true, true);
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.paquimetroCode.GDXObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Y"), gdjs.paquimetroCode.GDYObjects2);
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
 {runtimeScene.getVariables().getFromIndex(0).setNumber(0);
-}{for(var i = 0, len = gdjs.paquimetroCode.GDXObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDXObjects2[i].setString("debugX:" + gdjs.evtTools.common.toString(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0)));
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDYObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDYObjects2[i].setString("debugY:" + gdjs.evtTools.common.toString(gdjs.evtTools.input.getMouseY(runtimeScene, "", 0)));
-}
 }{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
     gdjs.paquimetroCode.GDnanioObjects2[i].activateBehavior("Draggable", true);
 }
