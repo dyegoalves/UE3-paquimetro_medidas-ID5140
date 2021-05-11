@@ -62,6 +62,9 @@ gdjs.paquimetroCode.GDcontroleRLObjects3= [];
 gdjs.paquimetroCode.GDzoomtxtObjects1= [];
 gdjs.paquimetroCode.GDzoomtxtObjects2= [];
 gdjs.paquimetroCode.GDzoomtxtObjects3= [];
+gdjs.paquimetroCode.GDreguaProfObjects1= [];
+gdjs.paquimetroCode.GDreguaProfObjects2= [];
+gdjs.paquimetroCode.GDreguaProfObjects3= [];
 
 gdjs.paquimetroCode.conditionTrue_0 = {val:false};
 gdjs.paquimetroCode.condition0IsTrue_0 = {val:false};
@@ -275,7 +278,7 @@ for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDbtzoomObjects2.length;i<l;++i) {
 gdjs.paquimetroCode.GDbtzoomObjects2.length = k;}if ( gdjs.paquimetroCode.condition2IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition3IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8049772);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7741140);
 }
 }}
 }
@@ -315,7 +318,7 @@ gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.paquimetroCode.condition1IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition2IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8107396);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7742028);
 }
 }}
 }
@@ -325,7 +328,7 @@ gdjs.copyArray(runtimeScene.getObjects("btreduzir"), gdjs.paquimetroCode.GDbtred
 /* Reuse gdjs.paquimetroCode.GDbtzoomObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects1);
 {gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.paquimetroCode.GDnanioObjects1.length !== 0 ? gdjs.paquimetroCode.GDnanioObjects1[0] : null), true, "", 0);
-}{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 4.5, "", 0);
+}{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 2.8, "", 0);
 }{for(var i = 0, len = gdjs.paquimetroCode.GDbtzoomObjects1.length ;i < len;++i) {
     gdjs.paquimetroCode.GDbtzoomObjects1[i].toggleVariableBoolean(gdjs.paquimetroCode.GDbtzoomObjects1[i].getVariables().get("onoroff"));
 }
@@ -349,7 +352,7 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 }
 
 
-};gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDdiretaObjects2Objects = Hashtable.newFrom({"direta": gdjs.paquimetroCode.GDdiretaObjects2});gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDesquerdaObjects1Objects = Hashtable.newFrom({"esquerda": gdjs.paquimetroCode.GDesquerdaObjects1});gdjs.paquimetroCode.eventsList3 = function(runtimeScene) {
+};gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDdiretaObjects2Objects = Hashtable.newFrom({"direta": gdjs.paquimetroCode.GDdiretaObjects2});gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDesquerdaObjects2Objects = Hashtable.newFrom({"esquerda": gdjs.paquimetroCode.GDesquerdaObjects2});gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDnanioObjects1Objects = Hashtable.newFrom({"nanio": gdjs.paquimetroCode.GDnanioObjects1});gdjs.paquimetroCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -366,6 +369,7 @@ gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 if (gdjs.paquimetroCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.paquimetroCode.GDdiretaObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("reguaProf"), gdjs.paquimetroCode.GDreguaProfObjects2);
 {for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
     gdjs.paquimetroCode.GDnanioObjects2[i].getBehavior("PlatformerObject").simulateRightKey();
 }
@@ -375,6 +379,9 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 }{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
     gdjs.paquimetroCode.GDnanioObjects2[i].activateBehavior("Draggable", false);
 }
+}{for(var i = 0, len = gdjs.paquimetroCode.GDreguaProfObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDreguaProfObjects2[i].setPosition((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX("")) + 800,(( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointY("")) - 250);
+}
 }}
 
 }
@@ -382,7 +389,7 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("esquerda"), gdjs.paquimetroCode.GDesquerdaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("esquerda"), gdjs.paquimetroCode.GDesquerdaObjects2);
 
 gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 gdjs.paquimetroCode.condition1IsTrue_0.val = false;
@@ -390,19 +397,46 @@ gdjs.paquimetroCode.condition1IsTrue_0.val = false;
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if ( gdjs.paquimetroCode.condition0IsTrue_0.val ) {
 {
-gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDesquerdaObjects1Objects, runtimeScene, true, false);
+gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDesquerdaObjects2Objects, runtimeScene, true, false);
 }}
 if (gdjs.paquimetroCode.condition1IsTrue_0.val) {
-/* Reuse gdjs.paquimetroCode.GDesquerdaObjects1 */
+/* Reuse gdjs.paquimetroCode.GDesquerdaObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("reguaProf"), gdjs.paquimetroCode.GDreguaProfObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnanioObjects2[i].getBehavior("PlatformerObject").simulateLeftKey();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDesquerdaObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDesquerdaObjects2[i].setAnimationFrame(1);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnanioObjects2[i].activateBehavior("Draggable", false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDreguaProfObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDreguaProfObjects2[i].setPosition((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX("")) + 800,(( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointY("")) - 250);
+}
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects1);
-{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnanioObjects1[i].getBehavior("PlatformerObject").simulateLeftKey();
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDesquerdaObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDesquerdaObjects1[i].setAnimationFrame(1);
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnanioObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnanioObjects1[i].activateBehavior("Draggable", false);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+gdjs.paquimetroCode.condition1IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.paquimetroCode.mapOfGDgdjs_46paquimetroCode_46GDnanioObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.paquimetroCode.condition0IsTrue_0.val ) {
+{
+gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}}
+if (gdjs.paquimetroCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.paquimetroCode.GDnanioObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("reguaProf"), gdjs.paquimetroCode.GDreguaProfObjects1);
+{for(var i = 0, len = gdjs.paquimetroCode.GDreguaProfObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDreguaProfObjects1[i].setPosition((( gdjs.paquimetroCode.GDnanioObjects1.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects1[0].getPointX("")) + 800,(( gdjs.paquimetroCode.GDnanioObjects1.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects1[0].getPointY("")) - 250);
 }
 }}
 
@@ -516,6 +550,9 @@ gdjs.paquimetroCode.GDcontroleRLObjects3.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects1.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects2.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDreguaProfObjects1.length = 0;
+gdjs.paquimetroCode.GDreguaProfObjects2.length = 0;
+gdjs.paquimetroCode.GDreguaProfObjects3.length = 0;
 
 gdjs.paquimetroCode.eventsList4(runtimeScene);
 return;
