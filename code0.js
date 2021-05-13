@@ -624,7 +624,6 @@ gdjs.paquimetroCode.eventsList0 = function (runtimeScene) {
             gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.isMobile();
         } if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
 
-            window.screen.lockOrientation('landscape-primary');
 
             gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.paquimetroCode.GDXObjects1);
             {
