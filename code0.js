@@ -624,7 +624,7 @@ gdjs.paquimetroCode.eventsList0 = function (runtimeScene) {
             gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.isMobile();
         } if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
 
-            alert("Ola Dyego Dev Aqui");
+            window.screen.lockOrientation('landscape-primary');
 
             gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.paquimetroCode.GDXObjects1);
             {
