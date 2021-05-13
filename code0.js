@@ -623,11 +623,14 @@ gdjs.paquimetroCode.eventsList0 = function (runtimeScene) {
         {
             gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.isMobile();
         } if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+
+            alert("Ola Dyego Dev Aqui");
+
             gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.paquimetroCode.GDXObjects1);
             {
                 for (var i = 0, len = gdjs.paquimetroCode.GDXObjects1.length; i < len; ++i) {
                     gdjs.paquimetroCode.GDXObjects1[i].setString("devxt");
-                    alert("Ola Dyego Dev Aqui")
+
                 }
             }
         }
