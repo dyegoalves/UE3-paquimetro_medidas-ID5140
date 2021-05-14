@@ -2,87 +2,119 @@ gdjs.paquimetroCode = {};
 gdjs.paquimetroCode.GDMolduraObjects1= [];
 gdjs.paquimetroCode.GDMolduraObjects2= [];
 gdjs.paquimetroCode.GDMolduraObjects3= [];
+gdjs.paquimetroCode.GDMolduraObjects4= [];
 gdjs.paquimetroCode.GDbaseReguaPacObjects1= [];
 gdjs.paquimetroCode.GDbaseReguaPacObjects2= [];
 gdjs.paquimetroCode.GDbaseReguaPacObjects3= [];
+gdjs.paquimetroCode.GDbaseReguaPacObjects4= [];
 gdjs.paquimetroCode.GDnanioObjects1= [];
 gdjs.paquimetroCode.GDnanioObjects2= [];
 gdjs.paquimetroCode.GDnanioObjects3= [];
+gdjs.paquimetroCode.GDnanioObjects4= [];
 gdjs.paquimetroCode.GDpinoTopObjects1= [];
 gdjs.paquimetroCode.GDpinoTopObjects2= [];
 gdjs.paquimetroCode.GDpinoTopObjects3= [];
+gdjs.paquimetroCode.GDpinoTopObjects4= [];
 gdjs.paquimetroCode.GDblockNanioPonto0Objects1= [];
 gdjs.paquimetroCode.GDblockNanioPonto0Objects2= [];
 gdjs.paquimetroCode.GDblockNanioPonto0Objects3= [];
-gdjs.paquimetroCode.GDYObjects1= [];
-gdjs.paquimetroCode.GDYObjects2= [];
-gdjs.paquimetroCode.GDYObjects3= [];
-gdjs.paquimetroCode.GDXObjects1= [];
-gdjs.paquimetroCode.GDXObjects2= [];
-gdjs.paquimetroCode.GDXObjects3= [];
-gdjs.paquimetroCode.GDvmmtxtObjects1= [];
-gdjs.paquimetroCode.GDvmmtxtObjects2= [];
-gdjs.paquimetroCode.GDvmmtxtObjects3= [];
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1= [];
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2= [];
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3= [];
-gdjs.paquimetroCode.GDmmtxtObjects1= [];
-gdjs.paquimetroCode.GDmmtxtObjects2= [];
-gdjs.paquimetroCode.GDmmtxtObjects3= [];
-gdjs.paquimetroCode.GDdenominadorValObjects1= [];
-gdjs.paquimetroCode.GDdenominadorValObjects2= [];
-gdjs.paquimetroCode.GDdenominadorValObjects3= [];
-gdjs.paquimetroCode.GDpolegadaDecimalObjects1= [];
-gdjs.paquimetroCode.GDpolegadaDecimalObjects2= [];
-gdjs.paquimetroCode.GDpolegadaDecimalObjects3= [];
-gdjs.paquimetroCode.GDnumeradorValObjects1= [];
-gdjs.paquimetroCode.GDnumeradorValObjects2= [];
-gdjs.paquimetroCode.GDnumeradorValObjects3= [];
-gdjs.paquimetroCode.GDfracdptxtObjects1= [];
-gdjs.paquimetroCode.GDfracdptxtObjects2= [];
-gdjs.paquimetroCode.GDfracdptxtObjects3= [];
-gdjs.paquimetroCode.GDpdtxtObjects1= [];
-gdjs.paquimetroCode.GDpdtxtObjects2= [];
-gdjs.paquimetroCode.GDpdtxtObjects3= [];
-gdjs.paquimetroCode.GDmedidaObjects1= [];
-gdjs.paquimetroCode.GDmedidaObjects2= [];
-gdjs.paquimetroCode.GDmedidaObjects3= [];
+gdjs.paquimetroCode.GDblockNanioPonto0Objects4= [];
 gdjs.paquimetroCode.GDbtreduzirObjects1= [];
 gdjs.paquimetroCode.GDbtreduzirObjects2= [];
 gdjs.paquimetroCode.GDbtreduzirObjects3= [];
-gdjs.paquimetroCode.GDesquerdaObjects1= [];
-gdjs.paquimetroCode.GDesquerdaObjects2= [];
-gdjs.paquimetroCode.GDesquerdaObjects3= [];
+gdjs.paquimetroCode.GDbtreduzirObjects4= [];
 gdjs.paquimetroCode.GDdiretaObjects1= [];
 gdjs.paquimetroCode.GDdiretaObjects2= [];
 gdjs.paquimetroCode.GDdiretaObjects3= [];
+gdjs.paquimetroCode.GDdiretaObjects4= [];
 gdjs.paquimetroCode.GDAjudaObjects1= [];
 gdjs.paquimetroCode.GDAjudaObjects2= [];
 gdjs.paquimetroCode.GDAjudaObjects3= [];
+gdjs.paquimetroCode.GDAjudaObjects4= [];
+gdjs.paquimetroCode.GDesquerdaObjects1= [];
+gdjs.paquimetroCode.GDesquerdaObjects2= [];
+gdjs.paquimetroCode.GDesquerdaObjects3= [];
+gdjs.paquimetroCode.GDesquerdaObjects4= [];
 gdjs.paquimetroCode.GDbtzoomObjects1= [];
 gdjs.paquimetroCode.GDbtzoomObjects2= [];
 gdjs.paquimetroCode.GDbtzoomObjects3= [];
-gdjs.paquimetroCode.GDreduzitxtObjects1= [];
-gdjs.paquimetroCode.GDreduzitxtObjects2= [];
-gdjs.paquimetroCode.GDreduzitxtObjects3= [];
-gdjs.paquimetroCode.GDajudatxtObjects1= [];
-gdjs.paquimetroCode.GDajudatxtObjects2= [];
-gdjs.paquimetroCode.GDajudatxtObjects3= [];
-gdjs.paquimetroCode.GDcontroleRLObjects1= [];
-gdjs.paquimetroCode.GDcontroleRLObjects2= [];
-gdjs.paquimetroCode.GDcontroleRLObjects3= [];
-gdjs.paquimetroCode.GDzoomtxtObjects1= [];
-gdjs.paquimetroCode.GDzoomtxtObjects2= [];
-gdjs.paquimetroCode.GDzoomtxtObjects3= [];
+gdjs.paquimetroCode.GDbtzoomObjects4= [];
 gdjs.paquimetroCode.GDreguaProfObjects1= [];
 gdjs.paquimetroCode.GDreguaProfObjects2= [];
 gdjs.paquimetroCode.GDreguaProfObjects3= [];
+gdjs.paquimetroCode.GDreguaProfObjects4= [];
 gdjs.paquimetroCode.GDPONTCObjects1= [];
 gdjs.paquimetroCode.GDPONTCObjects2= [];
 gdjs.paquimetroCode.GDPONTCObjects3= [];
+gdjs.paquimetroCode.GDPONTCObjects4= [];
 gdjs.paquimetroCode.GDlinhaFRObjects1= [];
 gdjs.paquimetroCode.GDlinhaFRObjects2= [];
 gdjs.paquimetroCode.GDlinhaFRObjects3= [];
+gdjs.paquimetroCode.GDlinhaFRObjects4= [];
+gdjs.paquimetroCode.GDYObjects1= [];
+gdjs.paquimetroCode.GDYObjects2= [];
+gdjs.paquimetroCode.GDYObjects3= [];
+gdjs.paquimetroCode.GDYObjects4= [];
+gdjs.paquimetroCode.GDdebugObjects1= [];
+gdjs.paquimetroCode.GDdebugObjects2= [];
+gdjs.paquimetroCode.GDdebugObjects3= [];
+gdjs.paquimetroCode.GDdebugObjects4= [];
+gdjs.paquimetroCode.GDvmmtxtObjects1= [];
+gdjs.paquimetroCode.GDvmmtxtObjects2= [];
+gdjs.paquimetroCode.GDvmmtxtObjects3= [];
+gdjs.paquimetroCode.GDvmmtxtObjects4= [];
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1= [];
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2= [];
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3= [];
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects4= [];
+gdjs.paquimetroCode.GDmmtxtObjects1= [];
+gdjs.paquimetroCode.GDmmtxtObjects2= [];
+gdjs.paquimetroCode.GDmmtxtObjects3= [];
+gdjs.paquimetroCode.GDmmtxtObjects4= [];
+gdjs.paquimetroCode.GDdenominadorValObjects1= [];
+gdjs.paquimetroCode.GDdenominadorValObjects2= [];
+gdjs.paquimetroCode.GDdenominadorValObjects3= [];
+gdjs.paquimetroCode.GDdenominadorValObjects4= [];
+gdjs.paquimetroCode.GDpolegadaDecimalObjects1= [];
+gdjs.paquimetroCode.GDpolegadaDecimalObjects2= [];
+gdjs.paquimetroCode.GDpolegadaDecimalObjects3= [];
+gdjs.paquimetroCode.GDpolegadaDecimalObjects4= [];
+gdjs.paquimetroCode.GDinvalObjects1= [];
+gdjs.paquimetroCode.GDinvalObjects2= [];
+gdjs.paquimetroCode.GDinvalObjects3= [];
+gdjs.paquimetroCode.GDinvalObjects4= [];
+gdjs.paquimetroCode.GDnumeradorValObjects1= [];
+gdjs.paquimetroCode.GDnumeradorValObjects2= [];
+gdjs.paquimetroCode.GDnumeradorValObjects3= [];
+gdjs.paquimetroCode.GDnumeradorValObjects4= [];
+gdjs.paquimetroCode.GDfracdptxtObjects1= [];
+gdjs.paquimetroCode.GDfracdptxtObjects2= [];
+gdjs.paquimetroCode.GDfracdptxtObjects3= [];
+gdjs.paquimetroCode.GDfracdptxtObjects4= [];
+gdjs.paquimetroCode.GDpdtxtObjects1= [];
+gdjs.paquimetroCode.GDpdtxtObjects2= [];
+gdjs.paquimetroCode.GDpdtxtObjects3= [];
+gdjs.paquimetroCode.GDpdtxtObjects4= [];
+gdjs.paquimetroCode.GDmedidaObjects1= [];
+gdjs.paquimetroCode.GDmedidaObjects2= [];
+gdjs.paquimetroCode.GDmedidaObjects3= [];
+gdjs.paquimetroCode.GDmedidaObjects4= [];
+gdjs.paquimetroCode.GDreduzitxtObjects1= [];
+gdjs.paquimetroCode.GDreduzitxtObjects2= [];
+gdjs.paquimetroCode.GDreduzitxtObjects3= [];
+gdjs.paquimetroCode.GDreduzitxtObjects4= [];
+gdjs.paquimetroCode.GDajudatxtObjects1= [];
+gdjs.paquimetroCode.GDajudatxtObjects2= [];
+gdjs.paquimetroCode.GDajudatxtObjects3= [];
+gdjs.paquimetroCode.GDajudatxtObjects4= [];
+gdjs.paquimetroCode.GDcontroleRLObjects1= [];
+gdjs.paquimetroCode.GDcontroleRLObjects2= [];
+gdjs.paquimetroCode.GDcontroleRLObjects3= [];
+gdjs.paquimetroCode.GDcontroleRLObjects4= [];
+gdjs.paquimetroCode.GDzoomtxtObjects1= [];
+gdjs.paquimetroCode.GDzoomtxtObjects2= [];
+gdjs.paquimetroCode.GDzoomtxtObjects3= [];
+gdjs.paquimetroCode.GDzoomtxtObjects4= [];
 
 gdjs.paquimetroCode.conditionTrue_0 = {val:false};
 gdjs.paquimetroCode.condition0IsTrue_0 = {val:false};
@@ -236,7 +268,7 @@ for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDbtzoomObjects2.length;i<l;++i) {
 gdjs.paquimetroCode.GDbtzoomObjects2.length = k;}if ( gdjs.paquimetroCode.condition2IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition3IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8114236);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7738708);
 }
 }}
 }
@@ -277,7 +309,7 @@ gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.paquimetroCode.condition1IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition2IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8119492);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7037644);
 }
 }}
 }
@@ -494,6 +526,13 @@ gdjs.copyArray(runtimeScene.getObjects("PONTC"), gdjs.paquimetroCode.GDPONTCObje
 {
 
 
+
+}
+
+
+{
+
+
 {
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
 {runtimeScene.getVariables().getFromIndex(1).setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX(""))), 0, 5));
@@ -562,14 +601,144 @@ gdjs.copyArray(runtimeScene.getObjects("vmmtxt"), gdjs.paquimetroCode.GDvmmtxtOb
 {
 
 
+
+}
+
+
 {
-gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects1);
-gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.GDpolegadaDecimalObjects1);
-{runtimeScene.getVariables().getFromIndex(9).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.paquimetroCode.GDnanioObjects1.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects1[0].getPointX("")) - 313.04) / 14.558), 0, 5)));
-}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaDecimalObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaDecimalObjects1[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(9)) / 25.4)), 0, 7));
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) <= 313.04;
+}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.GDpolegadaDecimalObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaDecimalObjects2[i].setString("0");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString("");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString("");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
 }
 }}
+
+}
+
+
+{
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) > 313.04;
+}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.GDpolegadaDecimalObjects2);
+{runtimeScene.getVariables().getFromIndex(9).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString(((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX("")) - 313.04) / 14.558), 0, 5)));
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaDecimalObjects2[i].setString(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(9)) / 25.4)), 0, 7));
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(9)) == 25.40;
+}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(9)) == 50.80;
+}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(9)) == 76.20;
+}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.GDpolegadaDecimalObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaDecimalObjects2[i].setString("3");
+}
+}}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -583,17 +752,79 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
-{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("");
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("");
 }
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128)));
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128)) + " in");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects3.length;i<l;++i) {
+    if ( gdjs.paquimetroCode.GDnumeradorValObjects3[i].getString() == "0 in" ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects3[k] = gdjs.paquimetroCode.GDnumeradorValObjects3[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects3.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects3);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects3 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].hide();
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in") ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide(false);
 }
 }}
 
@@ -609,17 +840,83 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
-{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("1");
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("1");
 }
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 128));
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 128) + " in");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects3.length;i<l;++i) {
+    if ( gdjs.paquimetroCode.GDnumeradorValObjects3[i].getString() == "0 in" ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects3[k] = gdjs.paquimetroCode.GDnumeradorValObjects3[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects3.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects3);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects3 */
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("1 in");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in") ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide(false);
 }
 }}
 
@@ -635,17 +932,83 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 2;
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
-{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("2");
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("2");
 }
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 256));
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 256) + " in");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects3);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects3.length;i<l;++i) {
+    if ( gdjs.paquimetroCode.GDnumeradorValObjects3[i].getString() == "0 in" ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects3[k] = gdjs.paquimetroCode.GDnumeradorValObjects3[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects3.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects3);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects3 */
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects3[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("2 in");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in") ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide(false);
 }
 }}
 
@@ -661,17 +1024,83 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 3;
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects1);
-gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects1);
-gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1);
-{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1[i].setString("3");
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("3");
 }
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects1[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 384));
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 384) + " in");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in" ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("3 in");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects1);
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects1.length;i<l;++i) {
+    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects1[i].getString() == "0 in") ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects1[k] = gdjs.paquimetroCode.GDnumeradorValObjects1[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects1.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects1);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects1);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects1 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects1.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+    gdjs.paquimetroCode.GDdenominadorValObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects1[i].hide(false);
 }
 }}
 
@@ -683,10 +1112,16 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetr
 {
 
 
+
+}
+
+
+{
+
+
 {
 gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObjects2);
-{runtimeScene.getVariables().getFromIndex(4).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(gdjs.evtTools.common.toString((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX(""))), 0, 5)));
-}{runtimeScene.getVariables().getFromIndex(6).setNumber(((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX("")) - 313.04) / 14.558);
+{runtimeScene.getVariables().getFromIndex(6).setNumber(((( gdjs.paquimetroCode.GDnanioObjects2.length === 0 ) ? 0 :gdjs.paquimetroCode.GDnanioObjects2[0].getPointX("")) - 313.04) / 14.558);
 }{runtimeScene.getVariables().getFromIndex(7).setNumber(Math.floor(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128);
 }{runtimeScene.getVariables().getFromIndex(8).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) - gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) + 128);
 }}
@@ -697,10 +1132,42 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 {
 
 
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("");
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
 gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+gdjs.paquimetroCode.condition1IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) < 128;
-}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+}if ( gdjs.paquimetroCode.condition0IsTrue_0.val ) {
+{
+gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) >= 313.04;
+}}
+if (gdjs.paquimetroCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(3).setNumber(0);
 }
 { //Subevents
@@ -835,24 +1302,6 @@ gdjs.paquimetroCode.eventsList11(runtimeScene);
 }
 
 
-{
-
-
-{
-}
-
-}
-
-
-{
-
-
-{
-}
-
-}
-
-
 };
 
 gdjs.paquimetroCode.func = function(runtimeScene) {
@@ -861,87 +1310,119 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.paquimetroCode.GDMolduraObjects1.length = 0;
 gdjs.paquimetroCode.GDMolduraObjects2.length = 0;
 gdjs.paquimetroCode.GDMolduraObjects3.length = 0;
+gdjs.paquimetroCode.GDMolduraObjects4.length = 0;
 gdjs.paquimetroCode.GDbaseReguaPacObjects1.length = 0;
 gdjs.paquimetroCode.GDbaseReguaPacObjects2.length = 0;
 gdjs.paquimetroCode.GDbaseReguaPacObjects3.length = 0;
+gdjs.paquimetroCode.GDbaseReguaPacObjects4.length = 0;
 gdjs.paquimetroCode.GDnanioObjects1.length = 0;
 gdjs.paquimetroCode.GDnanioObjects2.length = 0;
 gdjs.paquimetroCode.GDnanioObjects3.length = 0;
+gdjs.paquimetroCode.GDnanioObjects4.length = 0;
 gdjs.paquimetroCode.GDpinoTopObjects1.length = 0;
 gdjs.paquimetroCode.GDpinoTopObjects2.length = 0;
 gdjs.paquimetroCode.GDpinoTopObjects3.length = 0;
+gdjs.paquimetroCode.GDpinoTopObjects4.length = 0;
 gdjs.paquimetroCode.GDblockNanioPonto0Objects1.length = 0;
 gdjs.paquimetroCode.GDblockNanioPonto0Objects2.length = 0;
 gdjs.paquimetroCode.GDblockNanioPonto0Objects3.length = 0;
-gdjs.paquimetroCode.GDYObjects1.length = 0;
-gdjs.paquimetroCode.GDYObjects2.length = 0;
-gdjs.paquimetroCode.GDYObjects3.length = 0;
-gdjs.paquimetroCode.GDXObjects1.length = 0;
-gdjs.paquimetroCode.GDXObjects2.length = 0;
-gdjs.paquimetroCode.GDXObjects3.length = 0;
-gdjs.paquimetroCode.GDvmmtxtObjects1.length = 0;
-gdjs.paquimetroCode.GDvmmtxtObjects2.length = 0;
-gdjs.paquimetroCode.GDvmmtxtObjects3.length = 0;
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1.length = 0;
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length = 0;
-gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length = 0;
-gdjs.paquimetroCode.GDmmtxtObjects1.length = 0;
-gdjs.paquimetroCode.GDmmtxtObjects2.length = 0;
-gdjs.paquimetroCode.GDmmtxtObjects3.length = 0;
-gdjs.paquimetroCode.GDdenominadorValObjects1.length = 0;
-gdjs.paquimetroCode.GDdenominadorValObjects2.length = 0;
-gdjs.paquimetroCode.GDdenominadorValObjects3.length = 0;
-gdjs.paquimetroCode.GDpolegadaDecimalObjects1.length = 0;
-gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length = 0;
-gdjs.paquimetroCode.GDpolegadaDecimalObjects3.length = 0;
-gdjs.paquimetroCode.GDnumeradorValObjects1.length = 0;
-gdjs.paquimetroCode.GDnumeradorValObjects2.length = 0;
-gdjs.paquimetroCode.GDnumeradorValObjects3.length = 0;
-gdjs.paquimetroCode.GDfracdptxtObjects1.length = 0;
-gdjs.paquimetroCode.GDfracdptxtObjects2.length = 0;
-gdjs.paquimetroCode.GDfracdptxtObjects3.length = 0;
-gdjs.paquimetroCode.GDpdtxtObjects1.length = 0;
-gdjs.paquimetroCode.GDpdtxtObjects2.length = 0;
-gdjs.paquimetroCode.GDpdtxtObjects3.length = 0;
-gdjs.paquimetroCode.GDmedidaObjects1.length = 0;
-gdjs.paquimetroCode.GDmedidaObjects2.length = 0;
-gdjs.paquimetroCode.GDmedidaObjects3.length = 0;
+gdjs.paquimetroCode.GDblockNanioPonto0Objects4.length = 0;
 gdjs.paquimetroCode.GDbtreduzirObjects1.length = 0;
 gdjs.paquimetroCode.GDbtreduzirObjects2.length = 0;
 gdjs.paquimetroCode.GDbtreduzirObjects3.length = 0;
-gdjs.paquimetroCode.GDesquerdaObjects1.length = 0;
-gdjs.paquimetroCode.GDesquerdaObjects2.length = 0;
-gdjs.paquimetroCode.GDesquerdaObjects3.length = 0;
+gdjs.paquimetroCode.GDbtreduzirObjects4.length = 0;
 gdjs.paquimetroCode.GDdiretaObjects1.length = 0;
 gdjs.paquimetroCode.GDdiretaObjects2.length = 0;
 gdjs.paquimetroCode.GDdiretaObjects3.length = 0;
+gdjs.paquimetroCode.GDdiretaObjects4.length = 0;
 gdjs.paquimetroCode.GDAjudaObjects1.length = 0;
 gdjs.paquimetroCode.GDAjudaObjects2.length = 0;
 gdjs.paquimetroCode.GDAjudaObjects3.length = 0;
+gdjs.paquimetroCode.GDAjudaObjects4.length = 0;
+gdjs.paquimetroCode.GDesquerdaObjects1.length = 0;
+gdjs.paquimetroCode.GDesquerdaObjects2.length = 0;
+gdjs.paquimetroCode.GDesquerdaObjects3.length = 0;
+gdjs.paquimetroCode.GDesquerdaObjects4.length = 0;
 gdjs.paquimetroCode.GDbtzoomObjects1.length = 0;
 gdjs.paquimetroCode.GDbtzoomObjects2.length = 0;
 gdjs.paquimetroCode.GDbtzoomObjects3.length = 0;
-gdjs.paquimetroCode.GDreduzitxtObjects1.length = 0;
-gdjs.paquimetroCode.GDreduzitxtObjects2.length = 0;
-gdjs.paquimetroCode.GDreduzitxtObjects3.length = 0;
-gdjs.paquimetroCode.GDajudatxtObjects1.length = 0;
-gdjs.paquimetroCode.GDajudatxtObjects2.length = 0;
-gdjs.paquimetroCode.GDajudatxtObjects3.length = 0;
-gdjs.paquimetroCode.GDcontroleRLObjects1.length = 0;
-gdjs.paquimetroCode.GDcontroleRLObjects2.length = 0;
-gdjs.paquimetroCode.GDcontroleRLObjects3.length = 0;
-gdjs.paquimetroCode.GDzoomtxtObjects1.length = 0;
-gdjs.paquimetroCode.GDzoomtxtObjects2.length = 0;
-gdjs.paquimetroCode.GDzoomtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDbtzoomObjects4.length = 0;
 gdjs.paquimetroCode.GDreguaProfObjects1.length = 0;
 gdjs.paquimetroCode.GDreguaProfObjects2.length = 0;
 gdjs.paquimetroCode.GDreguaProfObjects3.length = 0;
+gdjs.paquimetroCode.GDreguaProfObjects4.length = 0;
 gdjs.paquimetroCode.GDPONTCObjects1.length = 0;
 gdjs.paquimetroCode.GDPONTCObjects2.length = 0;
 gdjs.paquimetroCode.GDPONTCObjects3.length = 0;
+gdjs.paquimetroCode.GDPONTCObjects4.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects1.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects2.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects3.length = 0;
+gdjs.paquimetroCode.GDlinhaFRObjects4.length = 0;
+gdjs.paquimetroCode.GDYObjects1.length = 0;
+gdjs.paquimetroCode.GDYObjects2.length = 0;
+gdjs.paquimetroCode.GDYObjects3.length = 0;
+gdjs.paquimetroCode.GDYObjects4.length = 0;
+gdjs.paquimetroCode.GDdebugObjects1.length = 0;
+gdjs.paquimetroCode.GDdebugObjects2.length = 0;
+gdjs.paquimetroCode.GDdebugObjects3.length = 0;
+gdjs.paquimetroCode.GDdebugObjects4.length = 0;
+gdjs.paquimetroCode.GDvmmtxtObjects1.length = 0;
+gdjs.paquimetroCode.GDvmmtxtObjects2.length = 0;
+gdjs.paquimetroCode.GDvmmtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDvmmtxtObjects4.length = 0;
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1.length = 0;
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length = 0;
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length = 0;
+gdjs.paquimetroCode.GDpolegadaFracionariaValObjects4.length = 0;
+gdjs.paquimetroCode.GDmmtxtObjects1.length = 0;
+gdjs.paquimetroCode.GDmmtxtObjects2.length = 0;
+gdjs.paquimetroCode.GDmmtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDmmtxtObjects4.length = 0;
+gdjs.paquimetroCode.GDdenominadorValObjects1.length = 0;
+gdjs.paquimetroCode.GDdenominadorValObjects2.length = 0;
+gdjs.paquimetroCode.GDdenominadorValObjects3.length = 0;
+gdjs.paquimetroCode.GDdenominadorValObjects4.length = 0;
+gdjs.paquimetroCode.GDpolegadaDecimalObjects1.length = 0;
+gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length = 0;
+gdjs.paquimetroCode.GDpolegadaDecimalObjects3.length = 0;
+gdjs.paquimetroCode.GDpolegadaDecimalObjects4.length = 0;
+gdjs.paquimetroCode.GDinvalObjects1.length = 0;
+gdjs.paquimetroCode.GDinvalObjects2.length = 0;
+gdjs.paquimetroCode.GDinvalObjects3.length = 0;
+gdjs.paquimetroCode.GDinvalObjects4.length = 0;
+gdjs.paquimetroCode.GDnumeradorValObjects1.length = 0;
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = 0;
+gdjs.paquimetroCode.GDnumeradorValObjects3.length = 0;
+gdjs.paquimetroCode.GDnumeradorValObjects4.length = 0;
+gdjs.paquimetroCode.GDfracdptxtObjects1.length = 0;
+gdjs.paquimetroCode.GDfracdptxtObjects2.length = 0;
+gdjs.paquimetroCode.GDfracdptxtObjects3.length = 0;
+gdjs.paquimetroCode.GDfracdptxtObjects4.length = 0;
+gdjs.paquimetroCode.GDpdtxtObjects1.length = 0;
+gdjs.paquimetroCode.GDpdtxtObjects2.length = 0;
+gdjs.paquimetroCode.GDpdtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDpdtxtObjects4.length = 0;
+gdjs.paquimetroCode.GDmedidaObjects1.length = 0;
+gdjs.paquimetroCode.GDmedidaObjects2.length = 0;
+gdjs.paquimetroCode.GDmedidaObjects3.length = 0;
+gdjs.paquimetroCode.GDmedidaObjects4.length = 0;
+gdjs.paquimetroCode.GDreduzitxtObjects1.length = 0;
+gdjs.paquimetroCode.GDreduzitxtObjects2.length = 0;
+gdjs.paquimetroCode.GDreduzitxtObjects3.length = 0;
+gdjs.paquimetroCode.GDreduzitxtObjects4.length = 0;
+gdjs.paquimetroCode.GDajudatxtObjects1.length = 0;
+gdjs.paquimetroCode.GDajudatxtObjects2.length = 0;
+gdjs.paquimetroCode.GDajudatxtObjects3.length = 0;
+gdjs.paquimetroCode.GDajudatxtObjects4.length = 0;
+gdjs.paquimetroCode.GDcontroleRLObjects1.length = 0;
+gdjs.paquimetroCode.GDcontroleRLObjects2.length = 0;
+gdjs.paquimetroCode.GDcontroleRLObjects3.length = 0;
+gdjs.paquimetroCode.GDcontroleRLObjects4.length = 0;
+gdjs.paquimetroCode.GDzoomtxtObjects1.length = 0;
+gdjs.paquimetroCode.GDzoomtxtObjects2.length = 0;
+gdjs.paquimetroCode.GDzoomtxtObjects3.length = 0;
+gdjs.paquimetroCode.GDzoomtxtObjects4.length = 0;
 
 gdjs.paquimetroCode.eventsList12(runtimeScene);
 return;
