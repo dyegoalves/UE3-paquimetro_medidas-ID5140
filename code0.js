@@ -153,6 +153,13 @@ gdjs.copyArray(runtimeScene.getObjects("nanio"), gdjs.paquimetroCode.GDnanioObje
 
 {
 
+
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("blockNanioPonto0"), gdjs.paquimetroCode.GDblockNanioPonto0Objects2);
 
 gdjs.paquimetroCode.condition0IsTrue_0.val = false;
@@ -272,7 +279,7 @@ for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDbtzoomObjects2.length;i<l;++i) {
 gdjs.paquimetroCode.GDbtzoomObjects2.length = k;}if ( gdjs.paquimetroCode.condition2IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition3IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8428828);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8286012);
 }
 }}
 }
@@ -313,7 +320,7 @@ gdjs.paquimetroCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.paquimetroCode.condition1IsTrue_0.val ) {
 {
 {gdjs.paquimetroCode.conditionTrue_1 = gdjs.paquimetroCode.condition2IsTrue_0;
-gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8429748);
+gdjs.paquimetroCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8287716);
 }
 }}
 }
@@ -747,7 +754,7 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.G
 }
 
 
-};gdjs.paquimetroCode.userFunc0x8eecc8 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6c32c8 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -854,7 +861,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x8eecc8(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6c32c8(runtimeScene);
 
 }
 
@@ -926,7 +933,7 @@ gdjs.paquimetroCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x7674b0 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6d5eb0 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1038,7 +1045,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x7674b0(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6d5eb0(runtimeScene);
 
 }
 
@@ -1099,7 +1106,7 @@ gdjs.paquimetroCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x8e4298 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6e9a10 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1211,7 +1218,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x8e4298(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6e9a10(runtimeScene);
 
 }
 
@@ -1272,7 +1279,7 @@ gdjs.paquimetroCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x8e9700 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6e92d8 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1298,115 +1305,115 @@ gdjs.paquimetroCode.eventsList13 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(gdjs.paquimetroCode.GDnumeradorValObjects2, gdjs.paquimetroCode.GDnumeradorValObjects3);
+gdjs.copyArray(gdjs.paquimetroCode.GDnumeradorValObjects1, gdjs.paquimetroCode.GDnumeradorValObjects2);
 
 
 gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects3.length;i<l;++i) {
-    if ( gdjs.paquimetroCode.GDnumeradorValObjects3[i].getString() == "0 in" ) {
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in" ) {
         gdjs.paquimetroCode.condition0IsTrue_0.val = true;
-        gdjs.paquimetroCode.GDnumeradorValObjects3[k] = gdjs.paquimetroCode.GDnumeradorValObjects3[i];
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
         ++k;
     }
 }
-gdjs.paquimetroCode.GDnumeradorValObjects3.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
-gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects3);
-/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects3 */
-gdjs.copyArray(gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2, gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3);
-
-{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDlinhaFRObjects3[i].hide();
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects3[i].hide();
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects3[i].hide();
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects3[i].setString("3 in");
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(gdjs.paquimetroCode.GDnumeradorValObjects2, gdjs.paquimetroCode.GDnumeradorValObjects3);
-
-
-gdjs.paquimetroCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects3.length;i<l;++i) {
-    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects3[i].getString() == "0 in") ) {
-        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
-        gdjs.paquimetroCode.GDnumeradorValObjects3[k] = gdjs.paquimetroCode.GDnumeradorValObjects3[i];
-        ++k;
-    }
-}
-gdjs.paquimetroCode.GDnumeradorValObjects3.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects3);
-gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects3);
-/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects3 */
-{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDlinhaFRObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects3[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects3.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects3[i].hide(false);
-}
-}}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-gdjs.paquimetroCode.userFunc0x8e9700(runtimeScene);
-
-}
-
-
-{
-
-
-{
-}
-
-}
-
-
-{
-
-
-{
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
 /* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
-{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(10)) + " in");
+gdjs.copyArray(gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1, gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
+
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide();
 }
 }{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDdenominadorValObjects2[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("3 in");
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.paquimetroCode.GDnumeradorValObjects1, gdjs.paquimetroCode.GDnumeradorValObjects2);
+
+
+gdjs.paquimetroCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.paquimetroCode.GDnumeradorValObjects2.length;i<l;++i) {
+    if ( !(gdjs.paquimetroCode.GDnumeradorValObjects2[i].getString() == "0 in") ) {
+        gdjs.paquimetroCode.condition0IsTrue_0.val = true;
+        gdjs.paquimetroCode.GDnumeradorValObjects2[k] = gdjs.paquimetroCode.GDnumeradorValObjects2[i];
+        ++k;
+    }
+}
+gdjs.paquimetroCode.GDnumeradorValObjects2.length = k;}if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects2);
+gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFRObjects2);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects2 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDlinhaFRObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDlinhaFRObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects2[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.paquimetroCode.userFunc0x6e92d8(runtimeScene);
+
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("denominadorVal"), gdjs.paquimetroCode.GDdenominadorValObjects1);
+/* Reuse gdjs.paquimetroCode.GDnumeradorValObjects1 */
+{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(10)) + " in");
+}
+}{for(var i = 0, len = gdjs.paquimetroCode.GDdenominadorValObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDdenominadorValObjects1[i].setString(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().getFromIndex(8)));
 }
 }}
 
@@ -1422,13 +1429,13 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = false;
 {
 gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 3;
 }if (gdjs.paquimetroCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects2);
-gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2);
-{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("3");
+gdjs.copyArray(runtimeScene.getObjects("numeradorVal"), gdjs.paquimetroCode.GDnumeradorValObjects1);
+gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1);
+{for(var i = 0, len = gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDpolegadaFracionariaValObjects1[i].setString("3");
 }
-}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects2.length ;i < len;++i) {
-    gdjs.paquimetroCode.GDnumeradorValObjects2[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 384) + " in");
+}{for(var i = 0, len = gdjs.paquimetroCode.GDnumeradorValObjects1.length ;i < len;++i) {
+    gdjs.paquimetroCode.GDnumeradorValObjects1[i].setString(gdjs.evtTools.common.toString(Math.floor((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 384) + " in");
 }
 }{runtimeScene.getVariables().getFromIndex(10).setNumber(Math.floor(((gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) / 25.4) * 128) - 384));
 }
@@ -1555,15 +1562,6 @@ gdjs.paquimetroCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNum
 }
 { //Subevents
 gdjs.paquimetroCode.eventsList14(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-{
 }
 
 }
