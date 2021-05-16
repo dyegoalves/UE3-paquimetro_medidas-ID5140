@@ -758,7 +758,7 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.G
 }
 
 
-};gdjs.paquimetroCode.userFunc0x7b4e40 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6e51b8 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -865,7 +865,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x7b4e40(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6e51b8(runtimeScene);
 
 }
 
@@ -937,7 +937,7 @@ gdjs.paquimetroCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x7d5e30 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6e5590 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1049,7 +1049,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x7d5e30(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6e5590(runtimeScene);
 
 }
 
@@ -1110,7 +1110,7 @@ gdjs.paquimetroCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x71fbe0 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x7d8d78 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1222,7 +1222,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x71fbe0(runtimeScene);
+gdjs.paquimetroCode.userFunc0x7d8d78(runtimeScene);
 
 }
 
@@ -1283,7 +1283,7 @@ gdjs.paquimetroCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x78a710 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6e7d40 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1393,7 +1393,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x78a710(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6e7d40(runtimeScene);
 
 }
 
