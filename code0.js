@@ -747,7 +747,7 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.G
 }
 
 
-};gdjs.paquimetroCode.userFunc0x780010 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x8eecc8 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -854,7 +854,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x780010(runtimeScene);
+gdjs.paquimetroCode.userFunc0x8eecc8(runtimeScene);
 
 }
 
@@ -926,7 +926,7 @@ gdjs.paquimetroCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x7803e8 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x7674b0 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1038,7 +1038,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x7803e8(runtimeScene);
+gdjs.paquimetroCode.userFunc0x7674b0(runtimeScene);
 
 }
 
@@ -1099,7 +1099,7 @@ gdjs.paquimetroCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x780580 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x8e4298 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1211,7 +1211,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x780580(runtimeScene);
+gdjs.paquimetroCode.userFunc0x8e4298(runtimeScene);
 
 }
 
@@ -1272,7 +1272,7 @@ gdjs.paquimetroCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x8f31a8 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x8e9700 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1382,7 +1382,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x8f31a8(runtimeScene);
+gdjs.paquimetroCode.userFunc0x8e9700(runtimeScene);
 
 }
 
@@ -1477,13 +1477,6 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaFracionariaVal"), gdjs.paquimetr
     gdjs.paquimetroCode.GDpolegadaFracionariaValObjects2[i].setString("");
 }
 }}
-
-}
-
-
-{
-
-
 
 }
 
