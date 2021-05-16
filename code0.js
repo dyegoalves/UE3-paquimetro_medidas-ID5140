@@ -51,14 +51,6 @@ gdjs.paquimetroCode.GDlinhaFRObjects1= [];
 gdjs.paquimetroCode.GDlinhaFRObjects2= [];
 gdjs.paquimetroCode.GDlinhaFRObjects3= [];
 gdjs.paquimetroCode.GDlinhaFRObjects4= [];
-gdjs.paquimetroCode.GDYObjects1= [];
-gdjs.paquimetroCode.GDYObjects2= [];
-gdjs.paquimetroCode.GDYObjects3= [];
-gdjs.paquimetroCode.GDYObjects4= [];
-gdjs.paquimetroCode.GDnDivisorObjects1= [];
-gdjs.paquimetroCode.GDnDivisorObjects2= [];
-gdjs.paquimetroCode.GDnDivisorObjects3= [];
-gdjs.paquimetroCode.GDnDivisorObjects4= [];
 gdjs.paquimetroCode.GDdebugObjects1= [];
 gdjs.paquimetroCode.GDdebugObjects2= [];
 gdjs.paquimetroCode.GDdebugObjects3= [];
@@ -83,10 +75,6 @@ gdjs.paquimetroCode.GDpolegadaDecimalObjects1= [];
 gdjs.paquimetroCode.GDpolegadaDecimalObjects2= [];
 gdjs.paquimetroCode.GDpolegadaDecimalObjects3= [];
 gdjs.paquimetroCode.GDpolegadaDecimalObjects4= [];
-gdjs.paquimetroCode.GDinvalObjects1= [];
-gdjs.paquimetroCode.GDinvalObjects2= [];
-gdjs.paquimetroCode.GDinvalObjects3= [];
-gdjs.paquimetroCode.GDinvalObjects4= [];
 gdjs.paquimetroCode.GDnumeradorValObjects1= [];
 gdjs.paquimetroCode.GDnumeradorValObjects2= [];
 gdjs.paquimetroCode.GDnumeradorValObjects3= [];
@@ -119,10 +107,6 @@ gdjs.paquimetroCode.GDzoomtxtObjects1= [];
 gdjs.paquimetroCode.GDzoomtxtObjects2= [];
 gdjs.paquimetroCode.GDzoomtxtObjects3= [];
 gdjs.paquimetroCode.GDzoomtxtObjects4= [];
-gdjs.paquimetroCode.GDmostrarVALObjects1= [];
-gdjs.paquimetroCode.GDmostrarVALObjects2= [];
-gdjs.paquimetroCode.GDmostrarVALObjects3= [];
-gdjs.paquimetroCode.GDmostrarVALObjects4= [];
 
 gdjs.paquimetroCode.conditionTrue_0 = {val:false};
 gdjs.paquimetroCode.condition0IsTrue_0 = {val:false};
@@ -758,7 +742,7 @@ gdjs.copyArray(runtimeScene.getObjects("polegadaDecimal"), gdjs.paquimetroCode.G
 }
 
 
-};gdjs.paquimetroCode.userFunc0x6e51b8 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x6a93e0 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -865,7 +849,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x6e51b8(runtimeScene);
+gdjs.paquimetroCode.userFunc0x6a93e0(runtimeScene);
 
 }
 
@@ -937,7 +921,7 @@ gdjs.paquimetroCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x6e5590 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x7d4a88 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1049,7 +1033,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x6e5590(runtimeScene);
+gdjs.paquimetroCode.userFunc0x7d4a88(runtimeScene);
 
 }
 
@@ -1110,7 +1094,7 @@ gdjs.paquimetroCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x7d8d78 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x7d5e30 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1222,7 +1206,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x7d8d78(runtimeScene);
+gdjs.paquimetroCode.userFunc0x7d5e30(runtimeScene);
 
 }
 
@@ -1283,7 +1267,7 @@ gdjs.paquimetroCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.paquimetroCode.userFunc0x6e7d40 = function(runtimeScene) {
+};gdjs.paquimetroCode.userFunc0x71f6d0 = function(runtimeScene) {
 "use strict";
 
 //Pega o numerador calculado
@@ -1393,7 +1377,7 @@ gdjs.copyArray(runtimeScene.getObjects("linhaFR"), gdjs.paquimetroCode.GDlinhaFR
 {
 
 
-gdjs.paquimetroCode.userFunc0x6e7d40(runtimeScene);
+gdjs.paquimetroCode.userFunc0x71f6d0(runtimeScene);
 
 }
 
@@ -1726,14 +1710,6 @@ gdjs.paquimetroCode.GDlinhaFRObjects1.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects2.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects3.length = 0;
 gdjs.paquimetroCode.GDlinhaFRObjects4.length = 0;
-gdjs.paquimetroCode.GDYObjects1.length = 0;
-gdjs.paquimetroCode.GDYObjects2.length = 0;
-gdjs.paquimetroCode.GDYObjects3.length = 0;
-gdjs.paquimetroCode.GDYObjects4.length = 0;
-gdjs.paquimetroCode.GDnDivisorObjects1.length = 0;
-gdjs.paquimetroCode.GDnDivisorObjects2.length = 0;
-gdjs.paquimetroCode.GDnDivisorObjects3.length = 0;
-gdjs.paquimetroCode.GDnDivisorObjects4.length = 0;
 gdjs.paquimetroCode.GDdebugObjects1.length = 0;
 gdjs.paquimetroCode.GDdebugObjects2.length = 0;
 gdjs.paquimetroCode.GDdebugObjects3.length = 0;
@@ -1758,10 +1734,6 @@ gdjs.paquimetroCode.GDpolegadaDecimalObjects1.length = 0;
 gdjs.paquimetroCode.GDpolegadaDecimalObjects2.length = 0;
 gdjs.paquimetroCode.GDpolegadaDecimalObjects3.length = 0;
 gdjs.paquimetroCode.GDpolegadaDecimalObjects4.length = 0;
-gdjs.paquimetroCode.GDinvalObjects1.length = 0;
-gdjs.paquimetroCode.GDinvalObjects2.length = 0;
-gdjs.paquimetroCode.GDinvalObjects3.length = 0;
-gdjs.paquimetroCode.GDinvalObjects4.length = 0;
 gdjs.paquimetroCode.GDnumeradorValObjects1.length = 0;
 gdjs.paquimetroCode.GDnumeradorValObjects2.length = 0;
 gdjs.paquimetroCode.GDnumeradorValObjects3.length = 0;
@@ -1794,10 +1766,6 @@ gdjs.paquimetroCode.GDzoomtxtObjects1.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects2.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects3.length = 0;
 gdjs.paquimetroCode.GDzoomtxtObjects4.length = 0;
-gdjs.paquimetroCode.GDmostrarVALObjects1.length = 0;
-gdjs.paquimetroCode.GDmostrarVALObjects2.length = 0;
-gdjs.paquimetroCode.GDmostrarVALObjects3.length = 0;
-gdjs.paquimetroCode.GDmostrarVALObjects4.length = 0;
 
 gdjs.paquimetroCode.eventsList18(runtimeScene);
 return;
