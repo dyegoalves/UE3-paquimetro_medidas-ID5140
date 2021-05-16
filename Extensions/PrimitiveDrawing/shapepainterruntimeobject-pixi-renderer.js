@@ -1,5 +1,6 @@
 var gdjs;
 (function(gdjs2) {
+  const PIXI = GlobalPIXIModule.PIXI;
   class ShapePainterRuntimeObjectPixiRenderer {
     constructor(runtimeObject, runtimeScene) {
       this._object = runtimeObject;
